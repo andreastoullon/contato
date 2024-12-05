@@ -8,3 +8,20 @@ function startAnimation() {
         kikandoElement.style.animation = '';
     }, 5000); // A animação dura 5 segundos antes de parar
 }
+
+const botao = document.getElementsByClassName('enviar')[0]; 
+
+function btn(click){
+    if(click){
+        console.log("hello world")
+    }else{
+        console.trace();
+    }
+}
+
+
+botao.addEventListener('click', function(){
+    alert('Enviado');
+});
+
+
