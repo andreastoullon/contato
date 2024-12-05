@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: black;
+    
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+.w50{
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+.w100{
+    float: left;
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+.form-group label{
+    display: block;
+    margin-bottom: 50px;
+    color: rgb(255, 5, 213);
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    padding: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+.form-group input[type=text]{
+    width: 100%;
+    padding-left: 8px;
+    height: 40px;
+    border: 1px solid blueviolet;
+    margin: 10px 0;
+
+}
+.form-group input[type=email]{
+    width: 100%;
+    padding-left: 8px;
+    height: 40px;
+    border: 1px solid blueviolet;
+    margin: 10px 0;
+
+}
+.form-group textarea{
+    width: 100%;
+    height: 120px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+
+@media screen and (max-width: 500px){
+    .w50{width: 100%;}
+}
+
+
+.kikando{
+    color: blueviolet;
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+@keyframes kikandoAnimation {
+    0% {
+        transform: scale(1); /* tamanho normal */
+    }
+    25% {
+        transform: scale(1.2); /* aumenta um pouco */
+    }
+    50% {
+        transform: scale(1); /* volta ao normal */
+    }
+    75% {
+        transform: scale(1.2); /* aumenta novamente */
+    }
+    100% {
+        transform: scale(1); /* volta ao normal */
+    }
+}
+
+button{
+   
+    padding: 10px 20px; /* Adiciona um pouco de espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Adiciona um cursor de "mão" quando passar sobre o botão */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Animação suave para mudança de cor */
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+
+
+button:hover {
+    background-color: aqua; /* Altera a cor ao passar o mouse */
+}
+
