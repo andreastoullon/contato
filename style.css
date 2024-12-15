@@ -82,39 +82,38 @@ h1{
 
 @keyframes kikandoAnimation {
     0% {
-        transform: scale(1); /* tamanho normal */
+        transform: scale(1); 
     }
     25% {
-        transform: scale(1.2); /* aumenta um pouco */
+        transform: scale(1.2); 
     }
     50% {
-        transform: scale(1); /* volta ao normal */
+        transform: scale(1); 
     }
     75% {
-        transform: scale(1.2); /* aumenta novamente */
+        transform: scale(1.2); 
     }
     100% {
-        transform: scale(1); /* volta ao normal */
+        transform: scale(1); 
     }
 }
 
 button{
-   
-    padding: 10px 20px; /* Adiciona um pouco de espaçamento interno */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Adiciona um cursor de "mão" quando passar sobre o botão */
-    background-color: #4CAF50; /* Cor de fundo */
-    color: white; /* Cor do texto */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    transition: background-color 0.3s ease; /* Animação suave para mudança de cor */
-    margin-top: 100px;
-    margin-left: 40%;
+    width: 100%;
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    transition: 0.3s ease; 
+    
 }
 
 
 
 button:hover {
-    background-color: aqua; /* Altera a cor ao passar o mouse */
+    background-color: aqua; 
 }
 
