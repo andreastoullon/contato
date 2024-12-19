@@ -15,9 +15,7 @@ body{
     padding: 0 2%;
 }
 
-.clear{
-    clear: both;
-}
+
 
 .w50{
     float: left;
@@ -123,7 +121,12 @@ button:hover {
     margin-top: 30%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
+    gap: 150px;
+    width: 100%;
+    
+   
 }
 
 
@@ -139,6 +142,10 @@ button:hover {
     background: #555;
     width: 300px;
     height: 400px;
+    border-radius: 15px ;
+    perspective: 1000px;
+    
+    
 }
 
 .cb{
@@ -147,6 +154,29 @@ button:hover {
     background-color: #0a0a0a ;
 }
 
+.flip-front,
+.flip-back {
+    position: absolute;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
+
+.card {
+    perspective: 1000px; 
+}
+
+.card:hover .flip-front {
+    transform: rotateY(180deg); 
+}
+
+.card:hover .flip-back {
+    transform: rotateY(0deg); 
+}
+
+.card .flip-back {
+    transform: rotateY(-180deg); 
+}
 
 
 
