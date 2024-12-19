@@ -134,7 +134,7 @@ button:hover {
     border: 2px solid blueviolet;
 }
 
-.card{
+.card img{
     position: relative;
     background: #555;
     width: 300px;
